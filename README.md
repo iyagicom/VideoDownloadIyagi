@@ -23,6 +23,7 @@ Nothing is downloaded inside the browser, so large videos are fast and keep down
 * **AES-128 HLS** — standard encrypted streams
 * **Stays logged in** — uses the browser's cookies and headers, refreshed from the extension when they expire
 * **Tray engine** — job list, progress, completion notices; keeps going after the browser closes
+* **Systems** — Windows 10/11 · Ubuntu · Fedora · Arch · other Linux
 * **Browsers** — Chrome · Edge · Chromium · Brave · Vivaldi (Firefox coming)
 
 ## 📥 Install
@@ -33,21 +34,22 @@ Download the file for your system from [**Releases**](https://github.com/iyagico
 
 | System | File |
 |---|---|
+| Windows 10/11 (64-bit) | `videodownloadiyagi-v<ver>-windows-x64-setup.exe` (installer) or `…-windows-x64.zip` (portable) |
 | Ubuntu 24.04 | `videodownloadiyagi_<ver>.ubuntu24.04_amd64.deb` |
 | Ubuntu 26.04 | `videodownloadiyagi_<ver>.ubuntu26.04_amd64.deb` |
 | Fedora | `videodownloadiyagi-<ver>-1.x86_64.rpm` |
 | Arch | `videodownloadiyagi-<ver>-1-x86_64.pkg.tar.zst` |
 | Other Linux | `.AppImage` or `.zip` |
 
-deb/rpm/pkg.tar.zst connect to your browsers on install; AppImage/zip connect themselves when **run once**.
-Merging video and audio needs `ffmpeg`; without it the tracks are saved separately.
+The Windows installer and deb/rpm/pkg.tar.zst connect to your browsers on install (Windows: per-user, no admin rights); AppImage/zip connect themselves when **run once**.
+Merging video and audio needs `ffmpeg` — bundled in the Windows build; on Linux install it from your distro. Without it the tracks are saved separately.
 
 ### 2. Browser extension
 
 Until the Chrome Web Store listing, install it unpacked:
 
 1. Download `videodownloadiyagi-extension-<ver>.zip` from Releases and unzip it
-   (deb/rpm/zst installs already have it at `/usr/share/videodownloadiyagi/extension`)
+   (already in the install folder's `extension` on Windows, and at `/usr/share/videodownloadiyagi/extension` for deb/rpm/zst)
 2. Open `chrome://extensions` (Edge: `edge://extensions`) → turn on **Developer mode**
 3. **Load unpacked** → choose that folder
 4. Play a video and click the toolbar icon — it should say **Engine connected**

@@ -21,6 +21,7 @@
 * **AES-128 HLS** — 표준 암호화 스트림 지원
 * **로그인 유지** — 브라우저가 쓰던 쿠키·헤더로 받고, 만료되면 확장에서 새로 받아 이어감
 * **트레이 상주 엔진** — 작업 목록·진행률·완료 알림, 브라우저를 닫아도 계속
+* **지원 시스템** — Windows 10/11 · Ubuntu · Fedora · Arch · 그 밖의 리눅스
 * **지원 브라우저** — Chrome · Edge · Chromium · Brave · Vivaldi (Firefox 준비 중)
 
 ## 📥 설치
@@ -31,6 +32,7 @@
 
 | 시스템 | 파일 |
 |---|---|
+| Windows 10/11 (64비트) | `videodownloadiyagi-v<버전>-windows-x64-setup.exe` (설치) 또는 `…-windows-x64.zip` (압축 풀어 바로 실행) |
 | Ubuntu 24.04 | `videodownloadiyagi_<버전>.ubuntu24.04_amd64.deb` |
 | Ubuntu 26.04 | `videodownloadiyagi_<버전>.ubuntu26.04_amd64.deb` |
 | Fedora | `videodownloadiyagi-<버전>-1.x86_64.rpm` |
@@ -41,15 +43,15 @@
 sudo apt install ./videodownloadiyagi_*ubuntu26.04_amd64.deb
 ```
 
-deb·rpm·pkg.tar.zst 는 설치만 하면 브라우저에 연결됩니다. AppImage·zip 은 **한 번 실행**하면 스스로 연결합니다.
-영상·음성을 합치려면 `ffmpeg` 이 필요합니다(`sudo apt install ffmpeg`) — 없으면 트랙을 따로 저장합니다.
+Windows 설치 파일·deb·rpm·pkg.tar.zst 는 설치만 하면 브라우저에 연결됩니다(Windows 는 관리자 권한 없이 사용자 단위 설치). AppImage·zip 은 **한 번 실행**하면 스스로 연결합니다.
+영상·음성을 합치려면 `ffmpeg` 이 필요합니다 — Windows 판에는 들어 있고, 리눅스는 `sudo apt install ffmpeg`. 없으면 트랙을 따로 저장합니다.
 
 ### 2. 브라우저 확장
 
 크롬 웹 스토어 등록 전까지는 압축 해제 확장으로 설치합니다.
 
 1. Releases 의 `videodownloadiyagi-extension-<버전>.zip` 을 받아 압축을 풉니다
-   (deb·rpm·zst 로 설치했다면 `/usr/share/videodownloadiyagi/extension` 에 이미 있습니다)
+   (Windows 는 설치 폴더의 `extension`, deb·rpm·zst 는 `/usr/share/videodownloadiyagi/extension` 에 이미 있습니다)
 2. 주소창에 `chrome://extensions` (Edge 는 `edge://extensions`) → 오른쪽 위 **개발자 모드** 켜기
 3. **압축해제된 확장 프로그램을 로드합니다** → 그 폴더 선택
 4. 영상을 재생하고 도구 모음의 아이콘을 눌러 **엔진 연결됨** 이 보이면 끝
