@@ -31,14 +31,14 @@
 
 | 시스템 | 파일 |
 |---|---|
-| Ubuntu 24.04 | `videodownloadiyagi_<버전>~ubuntu24.04_amd64.deb` |
-| Ubuntu 26.04 | `videodownloadiyagi_<버전>~ubuntu26.04_amd64.deb` |
+| Ubuntu 24.04 | `videodownloadiyagi_<버전>.ubuntu24.04_amd64.deb` |
+| Ubuntu 26.04 | `videodownloadiyagi_<버전>.ubuntu26.04_amd64.deb` |
 | Fedora | `videodownloadiyagi-<버전>-1.x86_64.rpm` |
 | Arch | `videodownloadiyagi-<버전>-1-x86_64.pkg.tar.zst` |
 | 그 밖의 리눅스 | `.AppImage` 또는 `.zip` |
 
 ```bash
-sudo apt install ./videodownloadiyagi_*~ubuntu26.04_amd64.deb
+sudo apt install ./videodownloadiyagi_*ubuntu26.04_amd64.deb
 ```
 
 deb·rpm·pkg.tar.zst 는 설치만 하면 브라우저에 연결됩니다. AppImage·zip 은 **한 번 실행**하면 스스로 연결합니다.

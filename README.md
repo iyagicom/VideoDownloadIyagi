@@ -33,8 +33,8 @@ Download the file for your system from [**Releases**](https://github.com/iyagico
 
 | System | File |
 |---|---|
-| Ubuntu 24.04 | `videodownloadiyagi_<ver>~ubuntu24.04_amd64.deb` |
-| Ubuntu 26.04 | `videodownloadiyagi_<ver>~ubuntu26.04_amd64.deb` |
+| Ubuntu 24.04 | `videodownloadiyagi_<ver>.ubuntu24.04_amd64.deb` |
+| Ubuntu 26.04 | `videodownloadiyagi_<ver>.ubuntu26.04_amd64.deb` |
 | Fedora | `videodownloadiyagi-<ver>-1.x86_64.rpm` |
 | Arch | `videodownloadiyagi-<ver>-1-x86_64.pkg.tar.zst` |
 | Other Linux | `.AppImage` or `.zip` |
