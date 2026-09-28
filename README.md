@@ -7,9 +7,18 @@ Finds the video playing in your browser and **saves it to your PC**.
 A **browser extension** detects the video; the **VideoDownloadIyagi engine** installed on your PC downloads it.
 Nothing is downloaded inside the browser, so large videos are fast and keep downloading after you close the browser.
 
-[한국어 README](README_ko.md)
+[English](README.md) · [한국어](README_ko.md)
 
 <p align="center"><img src="popup.png" width="420" alt="Extension popup"></p>
+
+## Why VideoDownloadIyagi?
+
+- **One click from the video you're watching.** Play it, click the toolbar icon, choose the quality — done. No copying links, no hunting for m3u8 files.
+- **Big videos, fast.** HLS in 6 parallel segments, large files in 4 parallel ranges.
+- **Survives a dropped connection.** Pauses and network drops resume where they stopped.
+- **Close the browser, keep downloading.** The engine runs from the tray, not inside a browser tab.
+- **Clean MP4/MKV.** Video and audio joined without re-encoding — no quality loss.
+- **Private.** Your cookies stay in memory only while downloading; nothing leaves your PC.
 
 ---
 
