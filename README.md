@@ -63,11 +63,12 @@ Until the Chrome Web Store listing, install it unpacked:
 3. **Load unpacked** → choose that folder
 4. Play a video and click the toolbar icon — it should say **Engine connected**
 
-## ⚠️ Not supported
+## ⚠️ Not supported & Legal Limits
 
-DRM-protected content (Widevine, PlayReady, FairPlay) is not downloaded, and there is no circumvention.
-YouTube and similar streaming services are not supported.
-Save only videos you are legitimately allowed to watch, for personal use.
+* **No DRM / Encryption Circumvention:** DRM-protected content (Widevine, PlayReady, FairPlay) is strictly not supported. This software contains absolutely no features to bypass, crack, or decrypt any digital rights management systems.
+* **No Site-Specific Targeting:** This tool does not target or exploit any specific streaming provider. It is a generic network traffic analyzer that saves only standard, unencrypted HLS (m3u8) or MP4 streams that are already publicly exposed in the browser's native network traffic.
+* **User Responsibility:** There are thousands of localized streaming providers worldwide. The developer cannot verify the Terms of Service for every site. You are solely responsible for compliance with the local laws, copyright rules, and intellectual property rights of the content providers you access. Save videos for personal, legitimate use only.
+
 
 ## 🔒 Privacy
 
