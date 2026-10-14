@@ -1,6 +1,6 @@
 <p align="center"><img src="videodownloadiyagi.png" width="128" alt="VideoDownloadIyagi"></p>
 
-# VideoDownloadIyagi
+# VideoDownloadIyagi (free)
 
 Finds the video playing in your browser and **saves it to your PC**.
 
